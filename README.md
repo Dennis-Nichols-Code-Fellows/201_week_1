@@ -6,8 +6,8 @@ This is a website to tell my story and show off some of my coding abilities.
 
 ### Tasks accomplished in Lab 02
 
--Listed bio, professional history, and educational history.
--Made a quiz for the user on my story.
+- Listed bio, professional history, and educational history.
+- Made a quiz for the user on my story.
 
 ### Resources used
 
