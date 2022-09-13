@@ -1,6 +1,6 @@
 'use strict';
 
-const user = prompt('Hello! What is your name?');
+let user = prompt('Hello! What is your name?');
 
 alert(`Hi ${user}, welcome to my site!`);
 
