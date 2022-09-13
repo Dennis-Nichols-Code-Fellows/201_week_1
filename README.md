@@ -11,6 +11,4 @@ This is a website to tell my story and show off some of my coding abilities.
 
 ### Resources used
 
-- I took inspiration for coding my button from Ania Kubow's youtube tutorial 
-
-## Lab 03
+- I took inspiration for coding my button from Ania Kubow's youtube tutorial. I have more notes on this process [here](https://dennis-nichols.github.io/yt_group_projects/rps1_notes_dn).
