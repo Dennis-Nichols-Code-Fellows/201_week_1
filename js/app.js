@@ -1,3 +1,9 @@
+'use strict';
+
+const user = prompt('Hello! What is your name?');
+
+alert(`Hi ${user}, welcome to my site!`);
+
 const button = document.querySelectorAll('button');
 
 button.forEach(button =>
@@ -6,31 +12,34 @@ button.forEach(button =>
     let book =  prompt('Was my favorite recent book called Babel?').toLowerCase();
     if (book === 'yes' || book === 'y') {
       alert('Correct!'); }
-    else { alert(`I'm afraid that's not right.`); } //Instructor said that using backticks for strings was ok so I'm ignoring this error here and subsequently
+    else { alert('I\'m afraid that\'s not right.'); } //Instructor said that using backticks for strings was ok so I'm ignoring this error here and subsequently
 
     //question 2
     let location = prompt('Am I currently located in Brazil?').toLowerCase();
     if (location === 'no' || location === 'n') {
       alert('Correct!'); }
-    else { alert(`I'm afraid that is incorrect.`); }
+    else { alert('I\'m afraid that\'s not right.'); }
 
     //question 3
     let peru =  prompt('Have I ever been to Peru?').toLowerCase();
     if (peru === 'yes' || peru === 'y') {
       alert('Correct!'); }
-    else { alert(`I'm afraid that's not right.`); }
+    else { alert('I\'m afraid that\'s not right.'); }
 
     //question 4
     let army = prompt('Was I in the Army?').toLowerCase();
     if (army === 'no' || army === 'n') {
-      alert(`That's right, I was in the Navy!`); }
-    else { alert(`I'm afraid that is incorrect.`); }
+      alert('That\'s right, I was in the Navy!'); }
+    else { alert('I\'m afraid that\'s not right.'); }
 
     //question 5
     let mechanic = prompt('Was I a mechanic in the Navy?').toLowerCase();
     if (mechanic === 'no' || mechanic === 'n') {
-      alert(`That's right, I was an Electronics Technician!`); }
-    else { alert(`I'm afraid that is incorrect.`); }
+      alert('That\'s right, I was an Electronics Technician!'); }
+    else { alert('I\'m afraid that\'s not right.'); }
+
+    // final message
+    alert(`Thanks for taking my quiz, ${user}. Have a nice day!`);
 
   }
   )
