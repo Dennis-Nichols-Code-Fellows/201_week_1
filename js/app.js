@@ -74,6 +74,7 @@ button.forEach(button =>
       alert(`The magic number was ${magicNum}, better luck next time!`);
     }
 
+
     //question 7
 
     const bookList = ['Babel',
