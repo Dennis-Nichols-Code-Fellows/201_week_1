@@ -9,3 +9,88 @@ color: #70ABAF; cadet blue
 color: #705D56; umber
 
 */
+
+/* universal styles */
+
+* {
+  color: #F0F7F4;
+  font-family: monospace;
+  /* background-color: #32292F; */
+  padding: 10 px;
+}
+
+/* body styles */
+
+body {
+  background-color: #70ABAF;
+  padding: 10px;
+}
+header{
+  margin-bottom: 10px;
+  border: 2px solid #705D56;
+  background-color: #32292F;
+  padding: 5px;
+
+}
+
+section {
+  margin-bottom: 10px;
+  border: 2px solid #705D56;
+  background-color: #32292F;
+  padding: 5px;
+  }
+
+p {
+  margin: 10px;
+}
+
+
+/* heading styles */
+
+h1, h2, h4 {
+  color: #99E1D9;
+  font-weight: bold;
+  margin: 10px;
+  
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+h4 {
+  font-size: 2vw;
+}
+
+/* list styles */
+
+ul {
+  
+  margin-left: 30px;
+  font-size: 1.5vw;
+  list-style-type: square;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+#education ul {
+  list-style-type: none;
+  border-left: 1px solid white;
+  padding-left: 20px;
+}
+
+/* button styles */
+
+button {
+  background-color:  #705D56;
+  border: 1px solid white;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+}
