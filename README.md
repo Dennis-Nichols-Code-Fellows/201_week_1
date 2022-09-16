@@ -2,9 +2,7 @@
 
 This is a website to tell my story and show off some of my coding abilities.
 
-## Lab 02
-
-### Tasks accomplished in Lab 02
+### Tasks accomplished
 
 - Listed bio, professional history, and educational history.
 - Made a quiz for the user on my story.
